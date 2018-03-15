@@ -1,0 +1,89 @@
+body{
+  background-color: PAPAYAWHIP;
+}
+
+header{
+text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-shadow: #f51807 0 0 6px;
+    border-bottom: 1px solid red; /*ajout d'une bordure en bas de H1*/
+    padding: 1em;
+}
+
+header img{
+  border-radius: 100px;
+  border-style: ridge;
+  border-color: #00ffe7;
+}
+header span{
+  font-size: 2.5em;
+font-family: 'Lobster Two', cursive;
+  /*insertion d'une police de caracteres de google fonts*/
+}
+
+h2{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+div img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+/*attributs des colonnes*/
+#col {
+  column-count: auto;
+  column-width: 18rem;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+  text-transform: capitalize;
+  font-family:monospace;
+  font-size: 1.5em;
+  color:TEAL;
+
+}
+
+#challenge {
+
+  text-align:center;
+  text-transform: capitalize;
+  font-family:monospace;
+  font-size: 1.5em;
+  color:TEAL;
+}
+
+strong{
+  color: DARKMAGENTA;
+  text-shadow: black 0 0 10px;
+}
+
+footer{
+  text-align: right;
+}
+
+hr{
+border: 0;
+    border-top: 2px solid #8d8d8d;
+    margin: 2em auto;
+    width: 70%;
+}
+em{
+  font-size: 0.9em;
+  font-weight: bold;
+  color: TOMATO;
+}
+
+/*redimensionnement des image dans le nav du footer*/
+footer nav img{
+  width: 30px;
+  height: 30px;
+}
